@@ -5,10 +5,12 @@
   "repository": "https://github.com/yutotakakura/react-build-environment.git",
   "license": "MIT",
   "scripts": {
-      "webpack": "webpack"
+    "build": "webpack",
+    "start": "webpack serve"
   },
   "devDependencies": {
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0"
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
   }
 }
